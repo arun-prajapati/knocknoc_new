@@ -7,6 +7,8 @@ import { Toaster } from "@/components/ui/sonner";
 import ContextProvider from "@/context/ContextProvider";
 import { ChatBotFun } from "@/components/chatBot/ChatBot";
 import NextTopLoader from "nextjs-toploader";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+
 // --font family--
 const poppins = Poppins({
   subsets: ["latin"],
@@ -56,6 +58,8 @@ export default function RootLayout({
         </>
         {/* ----recaptcha contianer for firbase captca verify---- */}
         <div id="recaptcha-container" className="fixed bottom-5 right-6"></div>
+        {/* ---- */}
+        <SpeedInsights />
       </body>
     </html>
   );
