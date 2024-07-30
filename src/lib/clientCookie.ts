@@ -2,7 +2,7 @@ import { cookies } from "next/headers";
 import { decryptData } from "./cryptoJSFunction";
 
 // --
-const SECRET_KEY = process.env.SECRET_KEY as string;
+const SECRET_KEY = process.env.NEXT_PUBLIC_SECRET_KEY as string;
 // --
 export const getClient_token = () => {
     // --

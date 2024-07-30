@@ -3,7 +3,7 @@
 import Script from "next/script";
 import "./ChatBot.css";
 export const ChatBotFun = () => {
-  const agent_id = `${process.env.DIALOGFLOW_AGENT_ID}`;
+  const agent_id = `${process.env.NEXT_PUBLIC_DIALOGFLOW_AGENT_ID}`;
 
   return (
     <div className="df-messenger-box">

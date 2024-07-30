@@ -21,7 +21,7 @@ export const CurrentUserContext = createContext<CurrentUserContextType | null>(
   null
 );
 
-const SECRET_KEY = process.env.SECRET_KEY as string;
+const SECRET_KEY = process.env.NEXT_PUBLIC_SECRET_KEY as string;
 
 const CurrentUser = ({ children }: { children: ReactNode }) => {
   const [cookies, setCookie, removeCookie] = useCookies(auth_cookies);
