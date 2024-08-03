@@ -27,6 +27,9 @@ export const metadata: Metadata = {
   },
   description:
     "Knock Knock - Your ultimate destination for expert local services in Singapore. Find verified & trusted professionals near you for all your home and beauty needs.",
+  alternates: {
+    canonical: `/`,
+  },
 };
 
 export default function RootLayout({
@@ -68,7 +71,6 @@ export default function RootLayout({
           property="twitter:image"
           content="https://knocknoc.sg/images/knoc%20knoc%20logo.png"
         />
-        <link rel="canonical" href="https://knocknoc.sg/" />
       </head>
       <body
         className={cn(
