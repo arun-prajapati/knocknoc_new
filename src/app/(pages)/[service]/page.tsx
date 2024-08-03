@@ -24,6 +24,9 @@ export async function generateMetadata({
     title: current_category?.meta_title || "",
     description: current_category?.meta_description || "",
     keywords: [current_category?.meta_keyword],
+    alternates: {
+      canonical: `/${current_category?.cat_slug}`,
+    },
     openGraph: {
       images: [
         {

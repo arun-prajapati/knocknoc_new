@@ -4,6 +4,9 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Gallery",
+  alternates: {
+    canonical: `/gallery`,
+  },
 };
 
 const GalleryLayout = ({

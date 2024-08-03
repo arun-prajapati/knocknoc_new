@@ -19,6 +19,7 @@ const poppins = Poppins({
 
 // --metadata--
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_WEB_URL || "/"),
   title: {
     default:
       "Knoc Knoc - Get Expert Professional Services at Home in Singapore",
