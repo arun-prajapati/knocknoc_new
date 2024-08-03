@@ -26,9 +26,6 @@ export const metadata: Metadata = {
   },
   description:
     "Knock Knock - Your ultimate destination for expert local services in Singapore. Find verified & trusted professionals near you for all your home and beauty needs.",
-  // twitter: {
-  //   card: "summary_large_image",
-  // },
 };
 
 export default function RootLayout({
@@ -38,6 +35,40 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta name="robots" content="index, follow" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://knocknoc.sg/" />
+        <meta
+          property="og:title"
+          content="Knoc Knoc - Get Expert Professional Services at Home in Singapore"
+        />
+        <meta
+          property="og:description"
+          content="Knock Knock - Your ultimate destination for expert local services in Singapore. Find verified & trusted professionals near you for all your home and beauty needs."
+        />
+        <meta
+          property="og:image"
+          content="https://knocknoc.sg/images/knoc%20knoc%20logo.png"
+        />
+        <meta property="og:site_name" content="Knoc Knoc" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://knocknoc.sg/" />
+        <meta
+          property="twitter:title"
+          content="Knoc Knoc - Get Expert Professional Services at Home in Singapore"
+        />
+        <meta
+          property="twitter:description"
+          content="Knock Knock - Your ultimate destination for expert local services in Singapore. Find verified & trusted professionals near you for all your home and beauty needs."
+        />
+        <meta
+          property="twitter:image"
+          content="https://knocknoc.sg/images/knoc%20knoc%20logo.png"
+        />
+        <link rel="canonical" href="https://knocknoc.sg/" />
+      </head>
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
