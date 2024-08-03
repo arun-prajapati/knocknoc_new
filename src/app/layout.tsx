@@ -42,7 +42,10 @@ export default function RootLayout({
       <head>
         <meta name="robots" content="index, follow" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://knocknoc.sg/" />
+        <meta
+          property="og:url"
+          content={`${process.env.NEXT_PUBLIC_WEB_URL}`}
+        />
         <meta
           property="og:title"
           content="Knoc Knoc - Get Expert Professional Services at Home in Singapore"
@@ -53,12 +56,15 @@ export default function RootLayout({
         />
         <meta
           property="og:image"
-          content="https://knocknoc.sg/images/knoc%20knoc%20logo.png"
+          content={`${process.env.NEXT_PUBLIC_WEB_URL}/images/knoc%20knoc%20logo.png`}
         />
         <meta property="og:site_name" content="Knoc Knoc" />
         <meta property="og:locale" content="en_US" />
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://knocknoc.sg/" />
+        <meta
+          property="twitter:url"
+          content={`${process.env.NEXT_PUBLIC_WEB_URL}`}
+        />
         <meta
           property="twitter:title"
           content="Knoc Knoc - Get Expert Professional Services at Home in Singapore"
@@ -69,7 +75,7 @@ export default function RootLayout({
         />
         <meta
           property="twitter:image"
-          content="https://knocknoc.sg/images/knoc%20knoc%20logo.png"
+          content={`${process.env.NEXT_PUBLIC_WEB_URL}/images/knoc%20knoc%20logo.png`}
         />
       </head>
       <body
