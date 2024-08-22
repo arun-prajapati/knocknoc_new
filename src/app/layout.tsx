@@ -22,11 +22,11 @@ export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_WEB_URL || "/"),
   title: {
     default:
-      "Knoc Knoc - Get Expert Professional Services at Home in Singapore",
+      "Expert Car Service And Wedding Planner in Singapore | Knocknoc",
     template: "%s - Knoc Knoc",
   },
   description:
-    "Knock Knock - Your ultimate destination for expert local services in Singapore. Find verified & trusted professionals near you for all your home and beauty needs.",
+    "Experience complete home, pedicure and digital services with Knocknoc in Singapore. Our offerings include home cleaning, and car repairs, all delivered with excellence.",
   alternates: {
     canonical: `/`,
   },
