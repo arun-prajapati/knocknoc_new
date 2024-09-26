@@ -23,6 +23,7 @@ const nextConfig = {
                 hostname: 'test-knocknoc-webpanel.knocknoc.sg',
             },
         ],
+        unoptimized: true
     },
 };
 // hostname "picsum.photos"
