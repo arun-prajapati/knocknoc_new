@@ -5,7 +5,7 @@ const page = () => {
   return (
     <main className="profile_page profile_layout 2xl:container px-2  ">
       <div className="w-full mx-auto max-w-4xl pt-10">
-        <About />;
+        <About />
       </div>
     </main>
   );
