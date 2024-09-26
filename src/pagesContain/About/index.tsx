@@ -46,7 +46,6 @@ const About = () => {
             >
               87713358
             </a>
-            .
           </p>
         </div>
       </ProfilePagesWrapper>
